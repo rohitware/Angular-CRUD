@@ -1,0 +1,79 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+
+    <div class="card">
+      <div class="card-header" data-background-color="blue">
+        <h4 class="title">Categories</h4>
+      </div>
+      <span>
+        <button type="button" class="btn btn-primary" (click)="newCategory()">
+          <i class="fa fa-plus"></i> Add Categories</button>
+      </span>
+
+      <div class="card-content table-responsive table">
+
+
+        <table class="table">
+          <thead class="">
+
+            <th>#</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Update</th>
+            <th>Delete</th>
+
+
+          </thead>
+
+          <tr *ngFor="let category of categories">
+            <td>
+              <label class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+              </label>
+            </td>
+            <td>{{category.id}}</td>
+            <td>{{category.catname}}</td>
+            <td>
+              <button (click)="doUpdate(category)">Update</button>
+            </td>
+            <td>
+              <button (click)="doDelete(category)">Delete</button>
+            </td>
+
+          </tr>
+
+   
+        </table>
+
+      </div>
+
+      <div class="card-footer p-0">
+        <nav aria-label="...">
+          <ul class="pagination justify-content-end mt-3 mr-3">
+            <li class="page-item disabled">
+              <span class="page-link">Previous</span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item active">
+              <span class="page-link">2
+                <span class="sr-only">(current)</span>
+              </span>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,50 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+
+    <div class="card">
+      <div class="card-header" data-background-color="blue">
+        <h4 class="title">Feedback</h4>
+      </div>
+     
+      <div class="card-content table-responsive table">
+         
+        <table class="table">
+          <thead class="">
+            <th>Date and time</th>
+            <th>Receipt no.</th>
+            <th>Customer</th>
+            <th>Contacts</th>
+            <th>Rating</th>
+            <th>Feedback</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </thead>
+
+          <tr *ngFor="let Feedback of arrFeedback">
+            <td>{{Feedback.Date_time}}</td>
+            <td>{{Feedback.Receiptno}}</td>
+            <td>{{Feedback.Customer}}</td>
+            <td>{{Feedback.Contacts}}</td>
+            <td>{{Feedback.Rating}}</td>
+            <td>{{Feedback.Feedback}}</td>
+
+            <td>
+              <button (click)="edit()">Edit</button>
+            </td>
+            <td>
+              <button (click)="doDelete(discount)">Delete</button>
+            </td>
+          </tr>
+        
+        </table>
+
+      </div>
+     
+    </div>
+
+</div>
+</div>
+
+
+

@@ -1,0 +1,42 @@
+[
+    {
+        "Name": " jhskdf",
+        "Select_Category": "Lorem Ipsum",
+        "Price": 3435,
+        "Cost": 5345,
+        "SKU": 343,
+        "Barcode": "fsr34534s"
+    },
+    {
+        "Name": " fdsff",
+        "Select_Category": "Lofgrem fgfg",
+        "Price": 365465,
+        "Cost": 536745,
+        "SKU": 4665,
+        "Barcode": "777jfgfgf"
+    },
+    {
+        "Name": " fghhg",
+        "Select_Category": "hfgh Ipsum",
+        "Price": 6456,
+        "Cost": 5345,
+        "SKU": 453,
+        "Barcode": "gdfg56dfds"
+    },
+    {
+        "Name": " hghgf",
+        "Select_Category": "trt Ipsum",
+        "Price": 6645,
+        "Cost": 53868,
+        "SKU": 25435,
+        "Barcode": "dfgd56hg"
+    },
+    {
+        "Name": " sdkfj",
+        "Select_Category": "Lorem fhd",
+        "Price": 4329,
+        "Cost": 4873,
+        "SKU": 4732,
+        "Barcode": "gj78dgfd"
+    }
+]

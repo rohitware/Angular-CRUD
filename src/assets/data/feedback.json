@@ -1,0 +1,35 @@
+[
+    {
+        "Date_time": " 09/02/18",
+        "Receiptno": "43434",
+        "Customer": "kedar joshi",
+        "Contacts": 5345345678,
+        "Rating": 3,
+        "Feedback": "fsr3Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the4534s"
+    },
+    {
+        "Date_time": " 4/3/18",
+        "Receiptno": "3332",
+        "Customer": "rahul patil",
+        "Contacts": 53458733,
+        "Rating": 5,
+        "Feedback": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    {
+        "Date_time": " 10/3/18",
+        "Receiptno": 4345345,
+        "Customer": "Atul kulkarni",
+        "Contacts": 232225345,
+        "Rating": 7,
+        "Feedback": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC"
+    },
+    {
+        "Date_time": " 15/3/18",
+        "Receiptno": 34355,
+        "Customer": "prachi",
+        "Contacts": 98338345,
+        "Rating": 9,
+        "Feedback": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecte"
+    }
+    
+]

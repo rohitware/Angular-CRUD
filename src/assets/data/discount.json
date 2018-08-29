@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "test",
+        "Value": "565",
+        "Type": "Percentage",
+        "Restricted_access": "no"
+    },
+    {
+        "Name": "dskjfh",
+        "Value": "43443",
+        "Type": "Amount",
+        "Restricted_access": "yes"
+    },
+    {
+        "Name": "dgfdg",
+        "Value": "4534",
+        "Type": "Percentage",
+        "Restricted_access": "no"
+    },
+    {
+        "Name": "rtyty",
+        "Value": "543",
+        "Type": "Amount",
+        "Restricted_access": "yes"
+    },
+    {
+        "Name": "test",
+        "Value": "565",
+        "Type": "Percentage",
+        "Restricted_access": "no"
+    }
+]

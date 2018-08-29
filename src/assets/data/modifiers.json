@@ -1,0 +1,32 @@
+[
+{
+    "ID": "001",
+   "modifierName": "Dakota Rice",
+    "optionName": "1234567890",
+    "Price": "1234567890"
+},
+{
+    "ID": "002",
+    "modifierName": "Bald Eagle",
+    "optionName": "1234567890",
+    "Price": "1234567890" 
+},
+{
+    "ID": "003",
+    "modifierName": "Cooper's Hawk",
+    "optionName": "1234567890",
+    "Price": "1234567890" 
+},
+{
+    "ID": "004",
+    "modifierName": "Eagle Eye",
+    "optionName": "1234567890",
+    "Price": "1234567890" 
+},
+{
+    "ID": "005",
+    "modifierName": "Acts of Vengeance",
+    "optionName": "1234567890",
+    "Price": "1234567890" 
+}
+]

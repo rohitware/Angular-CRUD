@@ -1,0 +1,38 @@
+[
+    {
+        "Customer": "test",
+        "Contacts": "abc@zxc.com",
+        "First_visit": "1234567890",
+        "Last_visit": "no",
+        "Points_balance":"1234567890",
+        "Purchase_amount": "Purchase amount",
+        "Total_visits": "12"
+    },
+    {
+        "Customer": "test",
+        "Contacts": "abc@zxc.com",
+        "First_visit": "1234567890",
+        "Last_visit": "no",
+        "Points_balance":"1234567890",
+        "Purchase_amount": "Purchase amount",
+        "Total_visits": "12"
+    },
+    {
+        "Customer": "test",
+        "Contacts": "abc@zxc.com",
+        "First_visit": "1234567890",
+        "Last_visit": "no",
+        "Points_balance":"1234567890",
+        "Purchase_amount": "Purchase amount",
+        "Total_visits": "12"
+    },
+    {
+        "Customer": "test",
+        "Contacts": "abc@zxc.com",
+        "First_visit": "1234567890",
+        "Last_visit": "no",
+        "Points_balance":"1234567890",
+        "Purchase_amount": "Purchase amount",
+        "Total_visits": "12"
+    }
+]

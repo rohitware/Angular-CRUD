@@ -1,0 +1,65 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+
+    <div class="card">
+      <div class="card-header" data-background-color="blue">
+        <h4 class="title">Create Discount</h4>
+      </div>
+
+      <div class="card-content table-responsive table">
+
+
+        <form #discountForm="ngForm" (ngSubmit)="savediscount(discount)">
+
+          <div class="col-sm-6">
+            <div class="form-group label-floating">
+              <label class="control-label">Name</label>
+              <input type="text" class="form-control" id="Name" [(ngModel)]="discount.Name" name="Name">
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="form-group label-floating">
+              <label class="control-label">Value</label>
+              <input type="number" class="form-control" id="Value" [(ngModel)]="discount.Value" name="Value">
+            </div>
+          </div>
+
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" [(ngModel)]="discount.Restricted_access" name="Restricted_access"> Restricted access
+            </label>
+          </div>
+
+
+          <div class="form-group">
+            <div class="form-control">
+              <label>Type: </label>
+              <label class="radio-inline">
+                <input type="radio" name="Type" value="Percentage" [(ngModel)]="discount.Type"> Percentage
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="Type" value="Amount" [(ngModel)]="discount.Type"> Amount
+              </label>
+            </div>
+          </div>
+
+
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <button type="button" class="btn btn-primary" [routerLink]="['/discount']">
+            Back to Discount</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,54 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+
+
+
+    <div class="card">
+      <div class="card-header" data-background-color="blue">
+        <h4 class="title">Add Customer</h4>
+      </div>
+
+      <div class="card-content table-responsive table">
+
+
+        <form #customerForm="ngForm" (ngSubmit)="saveCustomer(customer)">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="employeename">Name</label>
+     <input type="text" class="form-control" id="custname" [(ngModel)]="customer.custname" name="custname">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="custemail" [(ngModel)]="customer.custemail" name="custemail">
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="price">Number</label>
+            <input type="number" class="form-control" id="custphonenumber" [(ngModel)]="customer.custphonenumber" name="custphonenumber">
+          </div>
+
+          <div class="form-group col-md-6">
+              <label for="employeename">Note</label>
+              <textarea name="Note"rows="5" class="form-control" id="custnote" [(ngModel)]="customer.custnote" name="custnote"></textarea>
+            </div>
+
+
+
+          <button type="submit" class="btn btn-primary">Save</button>
+
+          <button type="button" class="btn btn-primary" [routerLink]="['/customers']">
+            Back to Customers</button>
+
+
+        </form>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,61 @@
+<div class="main-content">
+  <div class="container-fluid">
+
+
+
+
+    <div class="card">
+      <div class="card-header" data-background-color="blue">
+        <h4 class="title">Add employee</h4>
+      </div>
+
+      <div class="card-content table-responsive table">
+
+
+        <form #employeeForm="ngForm" (ngSubmit)="saveEmployee(employee)">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="employeename">Name</label>
+              <input type="text" class="form-control" id="employeename" [(ngModel)]="employee.employeename" name="employeename">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Email">Email</label>
+              <input type="email" class="form-control" id="email" [(ngModel)]="employee.email" name="email">
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="price">Phone Number</label>
+            <input type="number" class="form-control" id="phonenumber" [(ngModel)]="employee.phonenumber" name="phonenumber">
+          </div>
+
+          <div class="col-sm-6">
+
+            <label for="control-label">Select Role</label>
+
+            <select class="form-control" id="role" [(ngModel)]="employee.role" name="role">
+     
+              <option *ngFor="let rol of role" [value]="rol">{{rol}}</option>
+            </select>
+
+          </div>
+
+
+
+          <button type="submit" class="btn btn-primary">Save</button>
+
+          <button type="button" class="btn btn-primary" [routerLink]="['/employees']">
+            Back to Employees</button>
+
+
+        </form>
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
